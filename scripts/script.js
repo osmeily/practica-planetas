@@ -1,9 +1,19 @@
 let nombrePlanetas = ['tierra', 'marte'];
 let distancia = [6, 3];
 const tamanio = [];
+let i = 0;
+while(i <=nombrePlanetas.length-1){
+    console.log(i);
+    console.log(nombrePlanetas[i]);
+    i++
+}
 
-for (let i = 0; i < nombrePlanetas.length; i++) {
-    console.log(nombrePlanetas[i])
+for (let index = 0; index < nombrePlanetas.length; index++) {
+    console.log(nombrePlanetas[index])
+}
+
+for (const planeta of nombrePlanetas) {
+    console.log(planeta)
 }
 
 for (const key in distancia) {

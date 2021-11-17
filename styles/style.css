@@ -1,0 +1,21 @@
+.main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.table {
+    margin: auto;
+    padding: 20px;
+}
+
+.item {
+    border: none;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 5px;
+}
+
+input{
+    border: solid 1px rgb(92, 65, 116);
+}
